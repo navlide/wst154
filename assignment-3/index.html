@@ -1,0 +1,43 @@
+<!--
+*********************************
+ Subject: WST 154 (Summer 2023)
+ Author: Edilvan E. Falcon
+ Instructor: David Kazaryan
+ Date Created: 2023.07.12
+ Description: Assignment No. 3
+ - Create a function to check a condition and change some HTRML based on whether the condition is met or not similar to the attached example
+ ********************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/style/main.css" />
+    <script src="assets/script/main.js"></script>
+
+    <title>Assigment 3 - WST 154 - Functions</title>
+</head>
+<body>
+
+    <div id="main-content">
+        <p>              
+            <img src="assets/images/round globe.png" />
+            <input id="generate" type="button"  onclick="generateSelect()" value="Click to generate list of country" />
+        </p>
+
+        <select id="country-option" onchange="showDetails(this)">
+            <option value="">-- Select --</option>
+        </select>
+        <img id="pre-loader" src="assets/images/loading.gif"  />
+
+        <div> 
+            <p id="display-country-details"></p>
+        </div> 
+    </div>
+    
+   
+</body>
+</html>
