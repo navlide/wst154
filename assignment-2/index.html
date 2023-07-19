@@ -1,0 +1,53 @@
+<!--
+*********************************
+ Subject: WST 154 (Summer 2023)
+ Author: Edilvan E. Falcon
+ Instructor: David Kazaryan
+ Date Created: 2023.07.09
+ Description: Assignment No. 2
+ - Create an object with properties and populate and HTML table with those properties.
+ ********************************
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="assets/style/main.css" />
+    
+    <title>Assigment 2 - WST 154, Using object properties and tables</title>
+</head>
+<body>
+ 
+    <div id="main-content" >
+        <center>
+            <h1>Student Records</h1>
+            <h3>(Sortable table)</h3>
+        </center>
+
+        <div class="table-container">
+        <table class="data-table">
+            <thead>
+            <tr>
+                <th>ID Photo</th>
+                <th><button id="firstName">First Name</button></th>
+                <th><button id="lastName">Last Name</button></th>
+                <th><button id="attendance">Attendance</button></th>
+                <th><button id="midtermExam">Midterm Exam</button></th>
+                <th><button id="finalExam">Final Exam</button></th>
+                <th><button id="finalGrade">Final Grade</button></th>
+            </tr>
+            </thead>
+            <tbody id="table-content"></tbody>
+        </table>
+
+        <footer >
+            <div>Los Angeles Pacific College - WST 154 (Summer 2023)</div>
+        </footer>
+        </div>
+    </div>
+   <script src="assets/script/main.js"></script>
+</body>
+</html>
