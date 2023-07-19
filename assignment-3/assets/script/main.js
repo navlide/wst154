@@ -46,7 +46,8 @@ function showDetails(ele) {
   cty_display.innerHTML = '' 
     + ele.options[ele.selectedIndex].text + ' is in '+  ele.options[ele.selectedIndex].getAttribute('data')  +' region. </br><br/>' + 
     'Country Code: <b>' + ele.value + '</b><br/>' +
-    '<img class="flag" src="assets/images/flags/' + ele.value  + '.png" />'
+    /* '<img class="flag" src="assets/images/flags/' + ele.value  + '.png" />' */
+    '<img class="flag" src="http://babalabbs.com/images/flags/' + ele.value  + '.png" />'
     ;
 }
 
