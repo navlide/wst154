@@ -1,0 +1,66 @@
+/*
+*********************************
+ Subject: WST 154 (Summer 2023)
+ Author: Edilvan E. Falcon
+ Instructor: David Kazaryan
+ Date Created: 2023.07.22
+ Description: Assignment No. 4
+ ********************************
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+
+
+* {
+    font-family: 'Caveat', cursive;
+    font-size:20px;;
+}
+
+h1 { font-size: 45px;}
+
+h3 { padding: 0px; margin: 0px;}
+
+#main-content {
+    margin: 100px auto;
+    width: 450px;
+    text-align: center;
+}
+
+
+#my-story {
+
+    /* border: solid 1px #ff0000; */
+    margin: 10px auto;
+    padding:10px 10px 0px 0px;
+    margin-top: 0px;
+}
+
+select { 
+    font-size:25px; height:50px;
+    border: solid 2px rgb(107, 106, 106);
+    border-radius: 10px;
+ }
+
+
+ input[type=text] {
+    padding: 5px;
+    font-size: 16px;
+    width: 300px;
+    font-style: italic;
+}
+input[type=button] {
+    padding:20px; 
+    font-size: 30px;;
+    border:1px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-item-btn {color: #018b82; font-weight: bold; border:  solid 2px #015651; border-radius: 5px; padding: 5px; font-size: 18px; cursor: pointer;  }
+
+ul li { border-bottom: 1px solid #ffbb00; text-align: left; padding: 5px; margin: 5px; width: 70%;}
+
+.del-item-btn { margin: 0px 10px 0px 10px; cursor: pointer; font-size: 20px; color: #630101; border: solid 1px  #630101; border-radius: 5px; background-color: #f5cdcd; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
